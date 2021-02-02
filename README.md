@@ -4,12 +4,19 @@
 
 <br/>
 
-## How to Contribute?<br>
+### How to Contribute?<br>
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Be sure to check the <a href="https://github.com/surpathcommunity/surpathcommunity.github.io/blob/main/CONTRIBUTING.md">contributing guide lines.</a>
 
 <br/>
 
-## Find us on
+### To Do
+- [ ] Design a website with HTML, CSS, Bootstrap 4, JavaScript
+
+Language: HTML, CSS, Bootstrap 4, JavaScript
+
+<br/>
+
+### Find us on
 <a href="https://web.facebook.com/surpath/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&line-height=14px" width="12%"></a><br>
 <a href="https://www.youtube.com/channel/UCjA75ni_WO_AoyWsLxnnwjA"><img alt="Surpath YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" width="12%"></a><br>
 <a href="https://github.com/surpathcommunity"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="12%"></a>
