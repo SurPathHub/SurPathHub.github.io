@@ -11,6 +11,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ### To Do
 - [ ] Design a website with HTML, CSS, Bootstrap 4, JavaScript
+- [ ] Add our logo
+- [ ] Introduction about our community
+- [ ] List of Surpath repository
+- [ ] Founder & Moderator section
 
 Language: HTML, CSS, Bootstrap 4, JavaScript
 
