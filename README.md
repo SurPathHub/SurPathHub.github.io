@@ -5,7 +5,7 @@
 <br/>
 
 ### How to Contribute?<br>
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Be sure to check the <a href="https://github.com/surpathcommunity/surpathcommunity.github.io/blob/main/CONTRIBUTING.md">contributing guide lines.</a>
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Be sure to check the <a href="https://github.com/surpathcommunity/surpathcommunity.github.io/blob/main/CONTRIBUTING.md">contributing guidelines.</a>
 
 <br/>
 
