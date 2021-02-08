@@ -10,6 +10,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 <br/>
 
 ### To Do
+- [ ] Wireframe
 - [ ] Design a website with HTML, CSS, Bootstrap 4, JavaScript
 - [ ] Add our logo
 - [ ] Introduction about our community
