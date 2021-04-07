@@ -1,92 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Responsive landing page Surpath Community</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive landing page Surpath Community</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Surpath Community</a>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#main" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">What we do</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Join us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main" id="main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__img">
+                    <img src="assets/img/undraw_open_source_1qxw.svg" alt="" data-speed="-2" class="move">
+
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Surpath<br> Community</h1>
+                    <p class="home__description">Let's help discover the best more <br> open source projects.</p>
+                    <a href="#" class="home__button">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/undraw_open_source_1qxw.svg" alt="">
+                </div>
+
                 <div>
-                    <a href="#" class="nav__logo">Surpath Community</a>
-                </div>
-                
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
+                    <h2 class="about__subtitle">SurPath Community</h2>
+                    <span class="about__profession">Open Source Projects</span>
+                    <p class="about__text">SurPath is an welcoming and inclusive open source community that helps every aspiring student or career shifter in the Philippines. We are here to learn, get along with your passion and know your expertise in the field. Members of
+                        the community will be able to get a chance to get swag, to join some events, to get access on learning platforms and etc.</p>
 
-                <div class="nav__menu" id="nav-menu">
-                    <div class="nav__close" id="nav-close">
-                        <i class='bx bx-x'></i>
-                    </div>
-
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#main" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Blog</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">What we do</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Join us</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main" id="main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <div class="home__img">
-                        <img src="img/undraw_open_source_1qxw.svg" alt="" data-speed="-2" class="move">
-                        
-                    </div>
-
-                    <div class="home__data">
-                        <h1 class="home__title">Surpath<br> Community</h1>
-                        <p class="home__description">Let's help discover the best more   <br> open source projects.</p>
-                        <a href="#" class="home__button">Get Started</a>
+                    <div class="about__social">
+                        <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="#" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                        <a href="#" class="about__social-icon"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#" class="about__social-icon"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#" class="about__social-icon"><i class='bx bxl-instagram-alt' ></i></a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
+    </main>
 
+    <!--===== GSAP =====-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 
-            <!--===== ABOUT =====-->
-            <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="img/undraw_open_source_1qxw.svg" alt="">
-                    </div>
-
-                    <div>
-                        <h2 class="about__subtitle">SurPath Community</h2>
-                        <span class="about__profession">Open Source Projects</span>
-                        <p class="about__text">SurPath is an welcoming and inclusive open source community that helps every aspiring student or career shifter in the Philippines. We are here to learn, get along with your passion and know your expertise in the field. Members of the community will be able to get a chance to get swag, to join some events, to get access on learning platforms and etc.</p>
-
-                        <div class="about__social">
-                            <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="#" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                            <a href="#" class="about__social-icon"><i class='bx bxl-facebook-circle'></i></a>
-                            <a href="#" class="about__social-icon"><i class='bx bxl-twitter' ></i></a>
-                            <a href="#" class="about__social-icon"><i class='bx bxl-instagram-alt' ></i></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!--===== GSAP =====-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
 </html>
