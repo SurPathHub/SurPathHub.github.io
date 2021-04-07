@@ -237,7 +237,7 @@ img {
     margin-bottom: 2.5rem;
 }
 
-.home__button {
+.button {
     display: inline-block;
     background-color: var(--first-color-dark);
     color: var(--white-color);
@@ -245,7 +245,7 @@ img {
     border-radius: .5rem;
 }
 
-.home__button:hover {
+.button:hover {
     background-color: var(--first-color-darken);
 }
 
@@ -282,12 +282,13 @@ img {
 .about__text {
     margin-bottom: var(--mb-4);
     color: var(--first-color);
+    color: var(--text-color);
 }
 
 .about__profession {
     display: block;
     margin-bottom: var(--mb-4);
-    color: var(--first-color);
+    color: var(--text-color);
 }
 
 .about__social-icon {
@@ -298,6 +299,62 @@ img {
 
 .about__social-icon:hover {
     color: var(--first-color-dark);
+}
+
+
+/* ===== JOIN US====== */
+.join__container{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.join__content {
+	background-color: var(--white-color);
+	border-radius: 10px;
+	box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 1000px;
+	height: 400px;
+}
+
+.course h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+	font-size: 9.6em;
+}
+
+li{
+	font-size: 1.1rem;
+	margin-top: 20px;
+    color: var(--text-color);
+}
+
+.course__preview {
+	background-color:var(--first-color);
+	color: var(--white-color);
+	padding: 100px;
+	max-width: 350px;
+}
+
+.course__preview a {
+	display: inline-block;
+    background-color: var(--first-color-dark);
+    color: var(--white-color);
+    margin-top: 45px;
+    padding: 1.125rem;
+    border-radius: .5rem;
+}
+
+.course__info {
+    position: relative;
+	width: 100%;
+	padding: 30px;
+    margin-top: 40px;
+    text-align: center;
 }
 
 
