@@ -315,7 +315,7 @@ img {
     /* width: 70%; */
 }
 
-.team__container .team__card{
+.team__card{
     position: relative;
     width: 300px;
     height: 400px;
@@ -329,7 +329,7 @@ img {
     backdrop-filter: blur(10px);
 }
 
-.team__container .team__card .team__content{
+.team__content{
     position: relative;
     display: flex;
     justify-content: center;
@@ -339,12 +339,12 @@ img {
     transition: 0.5s;
 }
 
-.team__container .team__card:hover .team__content{
+.team__card:hover .team__content{
     opacity: 1;
     transform: translateY(-20px);
 }
 
-.team__container .team__card .team__content .team__img{
+.team__img{
     position: relative;
     width: 150px;
     height: 150px;
@@ -353,7 +353,7 @@ img {
     border: 10px solid rgba(0, 0, 0, 0.25);
 }
 
-.team__img  img{
+.team__img > img{
     position: absolute;
     top: 0;
     left: 0;
@@ -362,7 +362,7 @@ img {
     object-fit: cover;
 }
 
-.team__text h3{
+.team__text > h3{
     color: var(--text-color);
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -372,7 +372,7 @@ img {
     line-height: 1.1em;
 }
 
-.team__text span{
+.team__text > span{
     font-size: 12px;
     font-weight: 300;
     text-transform: initial;
@@ -384,7 +384,7 @@ img {
     display: flex;
 }
 
-.team__icon li{
+.team__icon > li{
     list-style: none;
     margin: 0 10px;
     transform: translateY(40px);
