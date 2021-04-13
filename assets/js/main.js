@@ -28,13 +28,19 @@ function move(e) {
     })
 }
 
-/*===== GSAP ANIMATION =====*/
-// NAV
-gsap.from('.nav__logo, .nav__toggle', { opacity: 0, duration: 1, delay: 2, y: 10 })
-gsap.from('.nav__item', { opacity: 0, duration: 1, delay: 2.1, y: 30, stagger: 0.2, })
+/*===== SCROLL  REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: '2000',
+    reset: true
+});
 
-// HOME
-gsap.from('.home__title', { opacity: 0, duration: 1, delay: 1.6, y: 30 })
-gsap.from('.home__description', { opacity: 0, duration: 1, delay: 1.8, y: 30 })
-gsap.from('.home__button', { opacity: 0, duration: 1, delay: 2.1, y: 30 })
-gsap.from('.home__img', { opacity: 0, duration: 1, delay: 1.3, y: 30 })
+
+sr.reveal(`.home__data, .home__img, .about__img,
+            .about__subtitle, .about__profession, .about__text, .about__social,
+            .team__card, .team__content,
+            .join__preview, .join__text, .join__button,
+            .footer__content, .footer__copy`, {
+    interval: 200
+})
