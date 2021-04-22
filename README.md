@@ -5,6 +5,8 @@ Open Source is for everyone, it doesn't matter who you are, everyone will love y
 Members of the community will be able to get a chance to get swags, to join some events, to get access on learning platforms and etc.
 ```
 
+Note: Only people from the Philippines are allowed to join in this organization and be part in our project, but anyone can help to improve our project. Don't worry, we have EddieHub Community: this is our international open-source community, and anyone can join.
+
 <br/>
 
 ### How to Contribute?<br>
