@@ -8,7 +8,6 @@
     --header-height: 3rem;
     /*===== Colors =====*/
     --first-color: #11122b;
-    --first-color-dark: #cea135;
     --first-color-darken: #c08c14;
     --white-color: #FCF8F8;
     --dark-color: #2A3B47;
@@ -181,7 +180,7 @@ img {
 }
 
 .nav__link:hover {
-    color: var(--first-color-dark);
+    color: var(--first-color-darken);
 }
 
 .nav__toggle {
@@ -240,7 +239,7 @@ img {
 
 .home__button {
     display: inline-block;
-    background-color: var(--first-color-dark);
+    background-color: var(--first-color-darken);
     color: var(--white-color);
     padding: 1.125rem 2rem;
     border-radius: .5rem;
@@ -472,17 +471,46 @@ img {
 /* ===== JOIN US====== */
 
 
+
 /*========== FOOTER ==========*/
+
 .footer__container {
-    display: flex;
-    margin: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    row-gap: 2rem;
+}
+
+.footer__logo {
+    font-size: var(--h3-font-size);
+    color: var(--first-color);
+    font-weight: var(--font-semi-bold);
+}
+
+.footer__description {
+    display: block;
+    font-size: var(--small-font-size);
+    margin: .25rem 0 var(--mb-3);
+}
+
+.footer__social {
+    font-size: 1.5rem;
+    color: var(--title-color);
+    margin-right: var(--mb-2);
 }
 
 .footer__title {
-    font-size: var(--h4-font-size);
+    font-size: var(--h2-font-size);
     color: var(--title-color);
     margin-bottom: var(--mb-2);
-    letter-spacing: 1px;
+}
+
+.footer__link {
+    display: inline-block;
+    color: var(--text-color);
+    margin-bottom: var(--mb-1);
+}
+
+.footer__link:hover {
+    color: var(--first-color-darken);
 }
 
 .footer__copy {
@@ -491,6 +519,7 @@ img {
     color: var(--text-color-light);
     margin-top: 3.5rem;
 }
+
 
 
 /* ===== MEDIA QUERIES =====*/
