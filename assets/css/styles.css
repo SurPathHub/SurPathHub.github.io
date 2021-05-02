@@ -93,6 +93,14 @@ img {
     margin-right: 1rem;
 }
 
+.nav-brand{
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .l-header {
     width: 100%;
     position: fixed;
@@ -305,13 +313,13 @@ img {
 /* ===== PROJECT ====== */
 
 .cards {
-    padding: 3rem;  
+    padding: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
   }
-  
+
   .card {
     display: flex;
     flex-direction: column;
@@ -320,45 +328,45 @@ img {
     color: #333;
     border-radius: 25px;
     box-shadow: 2px 2px 5px rgba(0,0,0,.3);
-    text-decoration: none;  
+    text-decoration: none;
     font-size: 1rem;
     overflow: hidden;
     transition: transform 200ms, box-shadow 200ms;
   }
-  
-  
-  
+
+
+
   .card .card__image {
     flex: 0 0 250px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
-  
+
   .card .content {
     padding: 1rem;
     height: 100%;
     display: flex;
     flex-direction: column;
   }
-  
+
   .card .card__title {
     font-size: 1.75rem;
     font-weight: 700;
     margin-bottom: .5rem;
   }
-  
+
   .card .card__snippet {
     margin-bottom: .5rem;
   }
-  
+
   .card .card__button {
-    text-transform: uppercase;  
+    text-transform: uppercase;
     text-align: right;
     font-weight: 600;
     margin-top: auto;
   }
-  
+
   .card:hover {
     transform: translateY(-10px);
     box-shadow: 2px 2px 15px rgba(0,0,0,.3);
