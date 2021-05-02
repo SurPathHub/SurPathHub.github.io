@@ -482,6 +482,11 @@ img {
 
 /*========== FOOTER ==========*/
 
+.footer {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+
 .footer__container {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     row-gap: 2rem;
