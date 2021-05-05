@@ -21,8 +21,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 <hr/>
 
-<p align="center">Join our conversation in discord
-<a href="https://discord.com/invite/RATJsSGM9d">Join our conversation in discord<br>
+<p align="center">Join our conversation in discord<br>
+<a href="https://discord.com/invite/RATJsSGM9d">
     <img src="https://img.shields.io/discord/790101969413865472?logo=discord&style=for-the-badge" target="blank" />
 </a>
 </p>
