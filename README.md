@@ -1,27 +1,27 @@
-## What is our community all about?
-Open Source is for everyone, it doesn't matter who you are, everyone will love you, and will appreciate your idea even it is small. Even if you dropout of college because of financial problems or even you have zero knowledge, we will help you to grow and getting you into tech industry. 
+# SurPath Hub Website
+This repository is dedicated to our community's website. Contributions are welcome to make our website more community-friendly.
 
-```
-Members of the community will be able to get a chance to get swags, to join some events, to get access on learning platforms and etc.
-```
+![image](https://user-images.githubusercontent.com/73097560/117122166-2aea6180-adc8-11eb-863f-a92de0d96af7.png)
 
-Note: Only people from the Philippines are allowed to join in this organization and be part in our project, but anyone can help to improve our project. Don't worry, we have EddieHub Community: this is our international open-source community, and anyone can join.
+<a href="https://surpathhub.github.io/">Live View</a>
 
-<br/>
+<hr />
 
 ### How to Contribute?<br>
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Be sure to check the <a href="https://github.com/surpathcommunity/surpathcommunity.github.io/blob/main/CONTRIBUTING.md">contributing guidelines.</a>
 
 <br/>
 
-### Find us on
-<a href="https://www.youtube.com/channel/UCjA75ni_WO_AoyWsLxnnwjA"><img alt="Surpath YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" width="12%"></a><br>
-<a href="https://github.com/surpathcommunity"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="12%"></a>
+## Follow Us
+<a href="https://twitter.com/vinzvinci"><img alt="followers" title="Follow me on Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+<a href="https://www.linkedin.com/company/surpathhub/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://www.youtube.com/channel/UCjA75ni_WO_AoyWsLxnnwjA"><img alt="Surpath YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
 
 <br>
 
 <hr/>
-<p align="center">
+
+<p align="center">Join our conversation in discord
 <a href="https://discord.com/invite/RATJsSGM9d">Join our conversation in discord<br>
     <img src="https://img.shields.io/discord/790101969413865472?logo=discord&style=for-the-badge" target="blank" />
 </a>
