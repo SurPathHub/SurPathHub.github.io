@@ -40,7 +40,8 @@ const sr = ScrollReveal({
 // sr.reveal(`.home__data, .home__img, .about__img,
 //             .about__subtitle, .about__profession, .about__text, .about__social,
 //             .team__card, .team__content,
-//             .join__preview, .join__text, .join__button,
+//             .card__image, .content,
+//             .card-join, .card__join,
 //             .footer__content, .footer__copy`, {
 //     interval: 200
 // })
