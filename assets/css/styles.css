@@ -9,6 +9,7 @@
     /*===== Colors =====*/
     --first-color: #11122b;
     --first-color-darken: #c08c14;
+    --first-color-dark: #6e510c;
     --white-color: #FCF8F8;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -265,7 +266,7 @@ img {
 }
 
 .home__button:hover {
-    background-color: var(--first-color-darken);
+    background-color: var(--first-color-dark);
 }
 
 
@@ -433,6 +434,19 @@ img {
     font-family: var(--body-font);
 }
 
+.join__button {
+    display: inline-block;
+    background-color: var(--first-color-darken);
+    color: var(--white-color);
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+}
+
+.join__button:hover {
+    background-color: var(--first-color-dark);
+}
+
 
 /* ===== TEAM ====== */
 
@@ -570,6 +584,10 @@ img {
     font-size: 1.5rem;
     color: var(--title-color);
     margin-right: var(--mb-2);
+}
+
+.footer__social:hover {
+    color: var(--first-color-darken);
 }
 
 .footer__title {
