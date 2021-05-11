@@ -167,7 +167,7 @@ img {
         width: 70%;
         height: 100%;
         padding: 3.5rem 1.5rem 0;
-        background: rgba(255, 255, 255, .3);
+        background: var(--dark-color);
         backdrop-filter: blur(10px);
         transition: .5s;
     }
