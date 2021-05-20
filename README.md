@@ -16,13 +16,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 <a href="https://twitter.com/vinzvinci"><img alt="followers" title="Follow me on Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
 <a href="https://www.linkedin.com/company/surpathhub/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="https://www.youtube.com/channel/UCjA75ni_WO_AoyWsLxnnwjA"><img alt="Surpath YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
-
-<br>
-
-<hr/>
-
-<p align="center">Join our conversation in discord<br>
-<a href="https://discord.com/invite/RATJsSGM9d">
-    <img src="https://img.shields.io/discord/790101969413865472?logo=discord&style=for-the-badge" target="blank" />
-</a>
-</p>
