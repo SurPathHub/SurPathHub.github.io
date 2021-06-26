@@ -103,7 +103,7 @@ img {
 }
 
 .nav__logo {
-  display: none;
+  display: flex;
 }
 
 .l-header {
@@ -682,6 +682,7 @@ h2 {
   }
   .nav__logo {
     display: block;
+    
   }
   .nav__close,
   .nav__link,
