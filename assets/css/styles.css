@@ -748,7 +748,7 @@ h2 {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 769px) {
   .nav__toggle,
   .nav__close {
     display: none;
