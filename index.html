@@ -70,18 +70,25 @@
                 
             </div>
 
-            <div class="home__data">
-                <h1 class="home__title">SurPath Hub</h1>
+            <div class="home__data" >
+
+                <div class="console">
+
+ <h1 class="home__title"> SurPath Hub</h1>
                 <p class="home__description">Our aim is to put every Filipino student aspiring developer into an open-source world 
                     regardless of their position in life and everyone will receive equal treatment.</p>
+
+                </div>
+               
             </div>
         
         </div>
             <script src="assets/js/loader.min.js"></script>
         </section>
-
+   
         <!--===== ABOUT =====-->
         <section class="about section" id="about">
+
             <h2 class="section-title">About</h2>
 
             <div class="about__container bd-grid">
@@ -102,6 +109,7 @@
                         <a href="https://www.youtube.com/channel/UCjA75ni_WO_AoyWsLxnnwjA" target="_blank" class="about__social-icon"><i class='bx bxl-youtube'></i></a>
                     </div>
                 </div>
+           
             </div>
         </section>
 
@@ -419,7 +427,31 @@
         </ul>
         <p class="footer__copy">&#169; 2021 SurPath Hub. All rights reserved</p>
     </footer>
-        
+    
+      <!-- //js code for console type animation -->
+
+    <script>
+        consoleText()
+    
+    function consoleText() {
+    var str = document.getElementsByClassName('console')[0].innerHTML.toString();
+    var i = 0;
+    document.getElementsByClassName('console')[0].innerHTML = "";
+    
+    setTimeout(function() {
+    var se = setInterval(function() {
+       i++;
+       document.getElementsByClassName('console')[0].innerHTML = str.slice(0, i) + "|";
+       if (i == str.length) {
+           clearInterval(se);
+           document.getElementsByClassName('console')[0].innerHTML = str;
+       }
+    }, 30);
+    },0);
+    }
+    </script>
+    
+    <!-- end of animation -->
     
     <!--===== SCROLL JS =====-->
     <script src="https://unpkg.com/scrollreveal"></script>

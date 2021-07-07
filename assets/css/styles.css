@@ -301,6 +301,8 @@ body .vertical-centered-box .content {
 }
 
 .home__description {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 17px;
   margin: 1.2rem 0rem 1rem 0rem;
   z-index: 1;
 }
