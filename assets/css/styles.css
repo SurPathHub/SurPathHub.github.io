@@ -160,7 +160,7 @@ img {
 @media screen and (max-width: 768px) {
   .nav__menu {
     position: fixed;
-    top: 0;
+    top: 3rem;
     right: -100%;
     width: 85%;
     height: 100%;
@@ -585,7 +585,7 @@ JOIN US
 
 .join__button {
   display: inline-block;
-  background-color: var(--first-color-darken);
+  background-color: var(--first-color-dark);
   color: var(--white-color);
   padding: 0.5rem 0.5rem;
   border-radius: 0.5rem;
@@ -593,7 +593,7 @@ JOIN US
 }
 
 .join__button:hover {
-  background-color: var(--first-color-dark);
+  background-color: var(--first-color-darken);
 }
 
 /* ===== TEAM ====== */
