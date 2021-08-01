@@ -1,7 +1,8 @@
 /*===== MENU SHOW Y HIDDEN =====*/
 const navMenu = document.getElementById('nav-menu'),
     toggleMenu = document.getElementById('nav-toggle'),
-    closeMenu = document.getElementById('nav-close')
+    closeMenu = document.getElementById('nav-close'),
+    closeMenuNavLink = document.querySelector('.nav__link')
 
 // SHOW
 toggleMenu.addEventListener('click', () => {
@@ -10,6 +11,11 @@ toggleMenu.addEventListener('click', () => {
 
 // HIDDEN
 closeMenu.addEventListener('click', () => {
+    navMenu.classList.remove('show')
+})
+
+// HIDDEN ON NAV LINK CLICK
+closeMenuNavLink.addEventListener('click', () => {
     navMenu.classList.remove('show')
 })
 
