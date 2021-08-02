@@ -1,23 +1,22 @@
-/*===== MENU SHOW Y HIDDEN =====*/
-const navMenu = document.getElementById('nav-menu'),
-    toggleMenu = document.getElementById('nav-toggle'),
-    closeMenu = document.getElementById('nav-close'),
-    closeMenuNavLink = document.querySelector('.nav__link')
 
-// SHOW
-toggleMenu.addEventListener('click', () => {
-    navMenu.classList.toggle('show')
-})
+ // Nav button hide     
+ var links = document.querySelectorAll('.nav__list');
+ var linksLength = links.length
+ 
+ for(var i = 0; i < linksLength; i++) {
+   links[i].addEventListener('click', function() {
+     document.getElementById('check').checked = false;
+   });
+ }
 
-// HIDDEN
-closeMenu.addEventListener('click', () => {
-    navMenu.classList.remove('show')
-})
-
-// HIDDEN ON NAV LINK CLICK
-closeMenuNavLink.addEventListener('click', () => {
-    navMenu.classList.remove('show')
-})
+ var links1 = document.querySelectorAll('.nav-brand');
+ var linksLength1 = links1.length
+ 
+ for(var j = 0; j < linksLength1; j++) {
+   links1[j].addEventListener('click', function() {
+     document.getElementById('check').checked = false;
+   });
+ }
 
 
 /*===== MOUSEMOVE HOME IMG =====*/
@@ -51,3 +50,4 @@ const sr = ScrollReveal({
 //             .footer__content, .footer__copy`, {
 //     interval: 200
 // })
+
