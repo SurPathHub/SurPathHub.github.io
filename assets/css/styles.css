@@ -920,6 +920,19 @@ h2 {
   text-align: center;
   margin-top: 20px;
 }
+.footer__credits {
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 30px;
+  opacity: 80%;
+}
+.git__link {
+  display: inline-flex;
+  justify-content: center;
+  padding-right: 3px;
+  padding-left: 3px;
+  padding-top: 1px;
+}
 
 /* ===== MEDIA QUERIES =====*/
 
@@ -997,7 +1010,6 @@ h2 {
     justify-self: center;
   }
 }
-
 @media screen and (min-width: 769px) {
   .bd-grid {
     margin-left: auto;
