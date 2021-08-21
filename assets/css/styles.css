@@ -925,19 +925,11 @@ h2 {
   justify-content: center;
   margin-top: 30px;
 }
-/*.git__link {
-  display: flex;
-  justify-content: center;
-  padding-right: 5px;
-  padding-left: 3px;
-  padding-top: 1px;
-}
-*/
-.pre__list{
+.pre__list {
   text-align: center;
 }
 .list__link {
-  display:inline-flex;
+  display: inline-flex;
   justify-content: center;
   padding-left: 1px;
   padding-right: 1px;
