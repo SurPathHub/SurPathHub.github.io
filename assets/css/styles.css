@@ -925,14 +925,23 @@ h2 {
   justify-content: center;
   margin-top: 30px;
 }
-.git__link {
-  display: inline-flex;
+/*.git__link {
+  display: flex;
   justify-content: center;
-  padding-right: 3px;
+  padding-right: 5px;
   padding-left: 3px;
   padding-top: 1px;
 }
-
+*/
+.pre__list{
+  text-align: center;
+}
+.list__link {
+  display:inline-flex;
+  justify-content: center;
+  padding-left: 1px;
+  padding-right: 1px;
+}
 /* ===== MEDIA QUERIES =====*/
 
 @media screen and (min-width: 768px) {
