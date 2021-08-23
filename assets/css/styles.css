@@ -928,7 +928,11 @@ h2 {
 .pre__list {
   text-align: center;
 }
+.powered__by {
+  margin-bottom: 15px;
+}
 .list__link {
+  color: #fff;
   display: inline-flex;
   justify-content: center;
   padding-left: 1px;
