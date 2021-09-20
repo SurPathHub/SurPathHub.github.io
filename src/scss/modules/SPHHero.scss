@@ -1,0 +1,20 @@
+.sph-hero {
+    width: 100%;
+    padding: calc(3rem + 55px) 3rem 3rem 3rem;
+    background: linear-gradient(45deg, rgba(9,28,0,1) 0%, rgb(36, 109, 0) 100%);
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+    .sph-hero__text {
+        max-width: 500px;
+
+        h1 {
+            line-height: 1.75em;
+        }
+    }
+    .sph-hero__actions {
+        margin-top: 1.2rem;
+    }
+}

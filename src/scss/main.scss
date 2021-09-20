@@ -37,10 +37,10 @@ body {
 }
 
 .content-wrap {
-    width: calc(100% - 20px);
+    width: calc(100% - 30px);
     max-width: 1077px;
     margin: 0 auto;
-    padding: 67px 0 0 0;
+    padding: 2.3em 0;
 }
 
 @include SPHButton.use($fill: secondary);
@@ -51,9 +51,9 @@ body {
 @include SPHNavbar.use();
 .sph-navbar {
     width: 100% !important;
-    .sph-button {
-        @media (min-width: 570px) {
-            margin-left: 10px;
+    .sph-navbar__item > .sph-button {
+        *:hover {
+            text-decoration: none !important;
         }
     }
 }

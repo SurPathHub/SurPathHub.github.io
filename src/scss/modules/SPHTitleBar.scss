@@ -1,0 +1,19 @@
+@use '~@surpathhub/ugnay/core/Typography';
+@use '~@surpathhub/ugnay/core/Theme';
+
+.sph-title-bar {
+    display: grid;
+    grid-template-columns: 1fr 100%;
+    grid-gap: 0.5rem;
+    align-items: center;
+
+    padding: 0.5rem 0;
+
+    i {
+        color: Theme.get-theme-key_(secondary);
+        font-size: Typography.px-to-rem(22px);
+    }
+    h2 {
+        font-size: Typography.px-to-rem(20px);
+    }
+}
