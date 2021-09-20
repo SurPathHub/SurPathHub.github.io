@@ -1,0 +1,61 @@
+/*
+
+    SurPathHub Main Site Style v.0.1.0
+    by MatteuSan (https://github.com/MatteuSan)
+
+*/
+
+@use '~@surpathhub/ugnay/components/SPHReset';
+
+@use '~@surpathhub/ugnay/core/Theme';
+
+@use '~@surpathhub/ugnay/components/SPHButton';
+@use '~@surpathhub/ugnay/components/SPHCard';
+@use '~@surpathhub/ugnay/components/SPHHeader';
+@use '~@surpathhub/ugnay/components/SPHNavbar';
+@use '~@surpathhub/ugnay/components/SPHSnackbar';
+@use '~@surpathhub/ugnay/components/SPHTextField';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@include Theme.config(
+    $primary: #474747,
+    $secondary: #7ed957
+);
+
+@include SPHReset.use();
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: var(--sph-theme--primary-dark);
+    color: var(--sph-theme--on-surface, #fff);
+}
+
+.content-wrap {
+    width: calc(100% - 20px);
+    max-width: 1077px;
+    margin: 0 auto;
+    padding: 67px 0 0 0;
+}
+
+@include SPHButton.use($fill: secondary);
+@include SPHCard.use();
+@include SPHHeader.use() {
+    --sph-header-radius: 0;
+};
+@include SPHNavbar.use();
+.sph-navbar {
+    width: 100% !important;
+    .sph-button {
+        @media (min-width: 570px) {
+            margin-left: 10px;
+        }
+    }
+}
+@include SPHSnackbar.use();
+@include SPHTextField.use();
