@@ -9,7 +9,7 @@ export const projects = [
         "name": "Ugnay Components Web",
         "description": "SurPath Hub's design system implementation for the web. Made with ❤, TypeScript, and SCSS",
         "link": "https://github.com/SurPathHub/ugnay-components-web",
-        "media": "https://user-images.githubusercontent.com/73097560/132696323-1451874c-1b3a-401a-9cbe-f5945a110194.png"
+        "media": "https://raw.githubusercontent.com/MatteuSan/SurPathHub.github.io/dev-gatsby-rewrite/src/images/ugnay-preview.png"
     },
     {
         "name": "SurPathHub Website",

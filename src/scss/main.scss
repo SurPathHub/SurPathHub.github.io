@@ -78,7 +78,8 @@ section {
 @include SPHButton.use();
 @include SPHCard.use();
 .sph-card__media img {
-    object-position: left !important;
+    object-position: center !important;
+    // object-fit: cover !important;
     height: 100% !important;
 }
 @include SPHHeader.use();
