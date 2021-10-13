@@ -4,7 +4,7 @@
   "description": "The official website of SurPathHub",
   "version": "0.1.0",
   "dependencies": {
-    "@surpathhub/ugnay": "^0.1.0-alpha",
+    "@surpathhub/ugnay": "^0.1.0-beta",
     "gatsby": "^3.13.1",
     "gatsby-plugin-image": "^1.13.0",
     "gatsby-plugin-manifest": "^3.13.0",

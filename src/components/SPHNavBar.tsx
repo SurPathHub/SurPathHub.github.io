@@ -18,7 +18,7 @@ const SPHNavBar: React.FC<SPHNavBarProps> = () => {
 
     return (
         <>
-            <button onClick={() => setIsNavOpen(!isNavOpen)} className="sph-navbar__trigger">
+            <button onClick={() => setIsNavOpen(!isNavOpen)} className="sph-js-navbar__trigger">
                 { isNavOpen ? <i className="bx bx-x" /> : <i className="bx bx-menu" /> }
             </button>
             <nav className={`sph-navbar${isNavOpen ? ' visible' : ''}`}>
@@ -28,11 +28,11 @@ const SPHNavBar: React.FC<SPHNavBarProps> = () => {
                 />
                 <SPHNavItem
                     label="About Us"
-                    link="/"
+                    link="#about-us"
                 />
                 <SPHNavItem
                     label="Our Projects"
-                    link="/"
+                    link="#our-projects"
                 />
                 <SPHNavItem
                     label="The Team"
@@ -41,7 +41,7 @@ const SPHNavBar: React.FC<SPHNavBarProps> = () => {
                 <div className="sph-navbar__item">
                     <SPHButton
                         label="Join Us!"
-                        link="/"
+                        link="https://github.com/SurPathHub"
                         type="outlined"
                     />
                 </div>

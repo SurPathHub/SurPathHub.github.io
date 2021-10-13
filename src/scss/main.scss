@@ -5,28 +5,41 @@
 
 */
 
-@use '~@surpathhub/ugnay/components/SPHReset';
+@use '~@surpathhub/ugnay/SPHReset';
 
-@use '~@surpathhub/ugnay/core/Theme';
+@use '~@surpathhub/ugnay/SPHCore/Theme';
 
-@use '~@surpathhub/ugnay/components/SPHButton';
-@use '~@surpathhub/ugnay/components/SPHCard';
-@use '~@surpathhub/ugnay/components/SPHHeader';
-@use '~@surpathhub/ugnay/components/SPHNavbar';
-@use '~@surpathhub/ugnay/components/SPHSnackbar';
-@use '~@surpathhub/ugnay/components/SPHTextField';
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
-@include Theme.config(
-    $primary: #474747,
-    $secondary: #7ed957
+@use '~@surpathhub/ugnay/SPHButton';
+@use '~@surpathhub/ugnay/SPHCard';
+@use '~@surpathhub/ugnay/SPHHeader' with (
+    // $header-fill: rgba(#474747, 0%),
+    $header-fill: rgb(18,71,2),
+    $header-logo-width: 55px,
+    $header-logo-height: 55px
 );
+@use '~@surpathhub/ugnay/SPHNavbar';
+@use '~@surpathhub/ugnay/SPHTextField';
+
+@use 'helpers/media-mixins';
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+:root {
+    @include Theme.config(
+        $primary: #474747,
+        $secondary: #7ed957
+    );
+}
 
 @include SPHReset.use();
 
 * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    // line-height: revert !important;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -37,25 +50,48 @@ body {
 }
 
 .content-wrap {
-    width: calc(100% - 30px);
-    max-width: 1077px;
+    width: calc(100% - 40px);
+    max-width: 977px;
     margin: 0 auto;
     padding: 2.3em 0;
 }
 
-@include SPHButton.use($fill: secondary);
+section {
+    margin-bottom: 1.7rem;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 0.7rem;
+    
+    @include media-mixins.breakpoint('m', 'min') {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @include media-mixins.breakpoint('l', 'min') {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@include SPHButton.use();
 @include SPHCard.use();
-@include SPHHeader.use() {
-    --sph-header-radius: 0;
-};
+.sph-card__media img {
+    object-position: left !important;
+    height: 100% !important;
+}
+@include SPHHeader.use();
+.sph-header {
+    box-shadow: none !important;
+}
 @include SPHNavbar.use();
 .sph-navbar {
     width: 100% !important;
-    .sph-navbar__item > .sph-button {
+    .sph-navbar__item .sph-button {
         *:hover {
             text-decoration: none !important;
         }
     }
 }
-@include SPHSnackbar.use();
 @include SPHTextField.use();

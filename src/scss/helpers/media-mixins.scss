@@ -1,0 +1,32 @@
+@use 'sass:meta';
+@use 'sass:map';
+
+$small: 320px !default;
+$medium: 540px !default;
+$large: 870px !default;
+
+@mixin breakpoint($breakpoint, $type) {
+    
+    $_breakpoint-map: (
+        'sm': $small,
+        'm': $medium,
+        'l': $large
+    );
+    
+    @if not map.has-key($_breakpoint-map, $breakpoint) {
+        @error "Invalid media query: #{$breakpoint}! Please select from the following valid queries: sm (mobile), m (medium), l (large).";
+    } @else {
+        @if not $type == 'min' or $type == 'max' {
+            @error 'Invalid type: #{$type}! Please select from the following valid types: min, max.'
+        } @else if $type == 'min' {
+            @media (min-width: map.get($_breakpoint-map, $breakpoint)) {
+                @content;
+            }
+        } @else if $type == 'max' {
+            @media (max-width: map.get($_breakpoint-map, $breakpoint) - 1) {
+                @content;
+            }
+        }
+    }
+    
+}
