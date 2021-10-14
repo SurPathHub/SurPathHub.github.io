@@ -1,7 +1,8 @@
 # The Contributor Covenant governs the SurPath Hub GitHub Community and Discord Community
-As the member or leader of this community, you are required to follow our Contributor Covenant Code of Conduct 2.0 to ensure that everyone is safe, comfortable and feels welcomed, participants in this repository abide by the terms of the Contributor Covenant, version 2.0 ([https://www.contributor-covenant.org/version/2/0/code_of_conduct/](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)). Full text of the code of conduct as pertains to this repository is included below. Violators will receive punishment, you can find steps to [report a violation](#get-fast-response-for-your-report) at the bottom of this document.
 
-# Contributor Covenant Code of Conduct 2.0
+As the member or leader of this community, you are required to follow our Contributor Covenant Code of Conduct 2.1 to ensure that everyone is safe, comfortable and feels welcomed, participants in this repository abide by the terms of the Contributor Covenant, version 2.0 ([https://www.contributor-covenant.org/version/2/1/code_of_conduct/](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)). Full text of the code of conduct as pertains to this repository is included below. Violators will receive punishment, you can find steps to [report a violation](#get-fast-response-for-your-report) at the bottom of this document.
+
+# Contributor Covenant Code of Conduct
 
 ## Our Pledge
 
@@ -63,7 +64,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-surpathofficial@gmail.com.
+mail@surpathhub.org.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
@@ -118,24 +119,24 @@ the community.
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.0, available at
-[https://www.contributor-covenant.org/version/2/0/code_of_conduct.html][v2.0].
+version 2.1, available at
+[https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1].
 
-Community Impact Guidelines were inspired by 
+Community Impact Guidelines were inspired by
 [Mozilla's code of conduct enforcement ladder][Mozilla CoC].
 
 For answers to common questions about this code of conduct, see the FAQ at
-[https://www.contributor-covenant.org/faq][FAQ]. Translations are available 
+[https://www.contributor-covenant.org/faq][FAQ]. Translations are available
 at [https://www.contributor-covenant.org/translations][translations].
 
 [homepage]: https://www.contributor-covenant.org
-[v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
+[v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
 
-# Get fast response for your report:
+# Get fast response for your report
 
 If you see someone violates our code of conduct within the SurPath Hub GitHub Organization and Discord Community, ways to report the incident and get support are listed below
 
--   Mention @moderator or @admin or vinzvinci#5227 in the discord community & the SurPath Hub Core Team surpathofficial@gmail.com
+* Mention @moderator, @admin, or vinzvinci#5227 in the Discord community & the SurPath Hub Core Team mail@surpathhub.org
