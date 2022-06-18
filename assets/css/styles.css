@@ -680,6 +680,7 @@ JOIN US
   padding: 0 0 20px;
   border-radius: 10px;
   text-align: center;
+  position: inherit;
 }
 
 .card__join {
