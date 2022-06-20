@@ -361,7 +361,7 @@ img {
 @media screen and (max-width: 768px) {
   .nav-btn {
     position: fixed;
-    height: 100%;
+    height: auto;
     top: 3rem;
     right: -20%;
     width: 85%;
@@ -371,7 +371,7 @@ img {
     align-items: center;
     justify-content: space-between;
 
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: auto;
     transform: translateX(100%);
     transition: 0.65s;
@@ -680,6 +680,7 @@ JOIN US
   padding: 0 0 20px;
   border-radius: 10px;
   text-align: center;
+  position: inherit;
 }
 
 .card__join {
