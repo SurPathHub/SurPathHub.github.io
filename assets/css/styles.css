@@ -638,6 +638,90 @@ iframe {
 
 /*
 ======== 
+BLOGS
+======== 
+*/
+.blog__profession {
+  display: block;
+  margin-bottom: var(--mb-4);
+  color: var(--text-color);
+}
+
+.blog__card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 300px;
+  width: 300px;
+  padding: 10px;
+  color: #333;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  font-size: 1rem;
+  overflow: hidden;
+  transition: transform 200ms, box-shadow 200ms;
+}
+
+.blog__card .blog__image {
+  flex: 0 0 250px;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog__card .blog__content {
+  padding: 1rem;
+  margin: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog__card .blog__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.blog__card .blog__snippet {
+  margin-bottom: 0.5rem;
+}
+
+.blog__card .blog__button {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: auto;
+}
+
+.blog__card:hover {
+  transform: translateY(-10px);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+.info {
+  display: flex;
+  color: #999;
+  font-size: 14px;
+  margin-top: 8px;
+  padding-left: 0;
+}
+
+.info a { cursor: pointer; }
+
+.ion-icon-1 {
+  height: 20px;
+  padding: 11px 8px 0 0px;
+}
+
+.ion-icon {
+  height: 20px;
+  padding: 11px 8px 0 20px;
+}
+
+
+/*
+======== 
 JOIN US 
 ======== 
 */
@@ -1034,6 +1118,13 @@ h2 {
     width: 604px;
   }
   .projects-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blogs-section {
     position: relative;
     width: 100%;
     display: flex;
