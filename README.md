@@ -1,7 +1,7 @@
 <h1>SurPath Hub</h1>
 
 The SurPath Hub is an <h3>open source community</h3>
-The aim of Surpath Hub is to every Asia student,career shifter or aspiring developer into an open source environment regardless of their position in life
+The aim of Surpath Hub is to every Filipino student,career shifter or aspiring developer into an open source environment regardless of their position in life
 and everyone will receive equal treatment.
 
 Community means ```a group of people sharing or having common interests```.That you can find in Surpath Hub.
