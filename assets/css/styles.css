@@ -6,6 +6,7 @@
 
 :root {
   --header-height: 3rem;
+  --max-section-width: 64rem;
   /*===== Colors =====*/
   --first-color: #11122b;
   --first-color-darken: #2aff95;
@@ -17,11 +18,17 @@
   --new-black-bg: #151719;
   --new-text-color: #9ba9b4;
   --new-btn-color: #51a22f;
+  --new-highlight-color: #D9E3EA; 
 
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 6.25rem;
   --h2-font-size: 1.25rem;
+  --h1-font-size: 2.5rem;
+  --bold-font-size: 1.5rem;
+  --paragraph-font-size: 1.25rem;
+  --bold-font: 700;
+  --extra-bold-font: 800;
   --normal-font-size: 0.938rem;
   --small-font-size: 0.813rem;
   /*===== z index =====*/
@@ -581,6 +588,55 @@ iframe {
 
 .about__social-icon:hover {
   color: var(--first-color-dark);
+}
+
+/* ===== PART OF SURPARH HUB ====== */
+.part_of_surparh_hub__section{
+  padding-top: 3.75rem;
+  background-color: var(--new-black-bg);
+  max-width: var(--max-section-width);
+  margin: 0 auto;
+  color: var(--new-highlight-color);
+}
+
+.part_of_surparh_hub__section h1{
+  text-align: center;
+  font-size: var(--h1-font-size);
+  font-weight: var(--extra-bold-font);
+}
+
+.part_of_surparh_hub__section > p{
+  text-align: center;
+  font-size: var(--paragraph-font-size);
+  color: var(--new-text-color);
+  margin-top: 1.125rem;
+  padding: 0 10px;
+}
+
+.part_of_surparh_hub__section .items_wrapper{
+  display: flex;
+  padding: 3.875rem 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.part_of_surparh_hub__section .items_wrapper .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 17.5rem;
+  margin: 0 auto;
+  padding: 0.875rem 1rem;
+}
+
+.part_of_surparh_hub__section .items_wrapper .item img{
+  max-width: 4rem;
+}
+
+.part_of_surparh_hub__section .items_wrapper .item p{
+  font-size: var(--bold-font-size);
+  font-weight: var(--extra-bold-font);
+  text-align: center;
 }
 
 /* ===== JOIN COMMUNITY ====== */
