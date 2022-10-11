@@ -1,6 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*===== VARIABLES CSS =====*/
 
@@ -12,9 +12,14 @@
   --first-color-dark: #6e510c;
   --white-color: #fcf8f8;
   --dark-color: #2a3b47;
-  --text-color: #697477;
+  /* --new-text-color: #697477; */
+  /*===== New Colors from Figma 2022 =====*/
+  --new-black-bg: #151719;
+  --new-text-color: #9ba9b4;
+  --new-btn-color: #51a22f;
+
   /*===== Font and typography =====*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: 'Poppins', sans-serif;
   --big-font-size: 6.25rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
@@ -60,6 +65,8 @@ body {
   font-size: var(--normal-font-size);
   font-weight: 500;
   overflow-x: hidden;
+  /* Remove this to get the original white background */
+  /* background-color: var(--new-black-bg); */
 }
 
 h1,
@@ -209,14 +216,14 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--dark-color);
+  color: var(--new-text-color);
   margin: var(--mb-4) 0;
   text-align: center;
 }
 
 .section-title::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 80px;
   height: 0.18rem;
   left: 0;
@@ -306,7 +313,7 @@ img {
 
 .hamburger-menu div:before,
 .hamburger-menu div:after {
-  content: "";
+  content: '';
   position: absolute;
   width: inherit;
   height: inherit;
@@ -414,7 +421,7 @@ body .vertical-centered-box {
   text-align: center;
 }
 body .vertical-centered-box:after {
-  content: "";
+  content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
@@ -497,7 +504,7 @@ body .vertical-centered-box .content {
 }
 
 .home__description {
-  font-family: "Share Tech Mono", monospace;
+  font-family: 'Share Tech Mono', monospace;
   font-size: 17px;
   margin: 1.2rem 0rem 1rem 0rem;
   z-index: 1;
@@ -557,23 +564,82 @@ iframe {
 .about__text {
   margin-bottom: var(--mb-4);
   color: var(--first-color);
-  color: var(--text-color);
+  color: var(--new-text-color);
 }
 
 .about__profession {
   display: block;
   margin-bottom: var(--mb-4);
-  color: var(--text-color);
+  color: var(--new-text-color);
 }
 
 .about__social-icon {
-  color: var(--text-color);
+  color: var(--new-text-color);
   font-size: 1.4rem;
   margin: 0 var(--mb-1);
 }
 
 .about__social-icon:hover {
   color: var(--first-color-dark);
+}
+
+/* ===== JOIN COMMUNITY ====== */
+.join_community__section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.join_community__button {
+  background-color: var(--new-btn-color);
+  color: var(--white-color);
+  padding: 1.125rem 1.5rem;
+  margin: 0rem 3rem;
+  text-align: center;
+  border: transparent;
+  border-radius: 2px;
+  box-shadow: 0px 10px 15px -3px rgba(21, 23, 25, 0.16);
+}
+
+.join_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 300px;
+  padding: 60px;
+  background-color: #25282c;
+  color: #ffffff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: transform 200ms, box-shadow 200ms;
+}
+
+.join__text {
+  margin-bottom: var(--mb-4);
+  color: var(--first-color);
+  color: var(--new-text-color);
+}
+
+.join__headline {
+  max-width: 750px;
+  text-align: center;
+  display: block;
+  margin-bottom: var(--mb-4);
+  color: var(--new-text-color);
+}
+
+.join__container {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
 }
 
 /* ===== PROJECT ====== */
@@ -644,7 +710,7 @@ BLOGS
 .blog__profession {
   display: block;
   margin-bottom: var(--mb-4);
-  color: var(--text-color);
+  color: var(--new-text-color);
 }
 
 .blog__card {
@@ -707,7 +773,9 @@ BLOGS
   padding-left: 0;
 }
 
-.info a { cursor: pointer; }
+.info a {
+  cursor: pointer;
+}
 
 .ion-icon-1 {
   height: 20px;
@@ -718,7 +786,6 @@ BLOGS
   height: 20px;
   padding: 11px 8px 0 20px;
 }
-
 
 /*
 ======== 
@@ -740,7 +807,7 @@ JOIN US
 
 .container-join-wrapper::after,
 .container-join-wrapper::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -775,7 +842,7 @@ JOIN US
 }
 
 .container-join .picture {
-  background: url("https://unsplash.com/photos/gnyA8vd3Otc") no-repeat center
+  background: url('https://unsplash.com/photos/gnyA8vd3Otc') no-repeat center
     cover;
   height: 400px;
   border-radius: 10px 10px 0 0;
@@ -838,14 +905,14 @@ JOIN US
 }
 
 /* ===== SUPPORT ====== */
-.support-para{
+.support-para {
   position: relative;
   font-size: var(--normal-font-size);
   color: var(--dark-color);
   margin: var(--mb-4) 0;
   text-align: center;
 }
-.scard{
+.scard {
   display: flex;
   flex-direction: column;
   flex: 1 0 300px;
@@ -858,35 +925,35 @@ JOIN US
   font-size: 1rem;
   transition: transform 200ms, box-shadow 200ms;
 }
-.support__icon{
+.support__icon {
   margin-top: 15px;
   margin-bottom: 25px;
 }
-.support__icon img{
+.support__icon img {
   position: relative;
   margin: 0 auto;
 }
-.support__container h3{
+.support__container h3 {
   text-align: center;
 }
-.benefits{
+.benefits {
   margin: 2px 0;
   font-weight: 200;
   text-align: center;
   font-size: var(--normal-font-size);
 }
-.learn__more{
+.learn__more {
   text-align: center;
   font-size: var(--normal-font-size);
 }
-.learn__more a{
+.learn__more a {
   text-decoration: none;
   color: var(--first-color);
 }
-.learn__more a:hover > span{
+.learn__more a:hover > span {
   margin-left: 5px;
 }
-.support__features ul li{
+.support__features ul li {
   font-size: var(--normal-font-size);
 }
 /* ===== TEAM ====== */
@@ -948,7 +1015,7 @@ JOIN US
 }
 
 .team__container .team__card .team__content .team__text {
-  color: var(--text-color);
+  color: var(--new-text-color);
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
@@ -1204,8 +1271,8 @@ h2 {
     text-align: left;
   }
   .container-join .picture {
-    background: url("https://user-images.githubusercontent.com/73097560/132696835-9729fe3d-bc9e-40c1-b2dd-4f4f0e81eb3d.jpg") no-repeat
-      center/cover;
+    background: url('https://user-images.githubusercontent.com/73097560/132696835-9729fe3d-bc9e-40c1-b2dd-4f4f0e81eb3d.jpg')
+      no-repeat center/cover;
     min-width: 50%;
     border-radius: 0 10px 10px 0;
   }
