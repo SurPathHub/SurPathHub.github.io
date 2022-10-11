@@ -66,7 +66,7 @@ body {
   font-weight: 500;
   overflow-x: hidden;
   /* Remove this to get the original white background */
-  background-color: var(--new-black-bg);
+  /* background-color: var(--new-black-bg); */
 }
 
 h1,
