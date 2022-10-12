@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div class="relative w-full pb-24 pt-12 bg-pink-400/0">
+      <div className="relative w-full pb-24 pt-12 bg-pink-400/0">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex justify-center ">
             <img
@@ -41,7 +41,7 @@ const Hero = () => {
         </div>
 
         {/* START: shape corner bottom-left */}
-        <div class="absolute left-0 bottom-0  ">
+        <div className="absolute left-0 bottom-0  ">
           <Image
             className="absolute left-0 bottom-0 h-full w-full"
             src={"/img/hero-shape-circle.svg"}

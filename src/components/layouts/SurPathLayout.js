@@ -19,9 +19,9 @@ const SurPathLayout = ({ children }) => {
     <>
       <div className="bg-gray-subpath h-full flex flex-col">
         <div className="flex overflow-hidden">
-          <div class=" w-full">
+          <div className="w-full">
             {/* START: shape corner top-right */}
-            <div class="absolute right-0 top-0 h-16">
+            <div className="absolute right-0 top-0 h-16">
               <Image
                 className="absolute right-0 top-0 h-full w-full"
                 src={"/img/corner-shape.svg"}
