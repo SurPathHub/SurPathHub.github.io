@@ -1,13 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import Blog from "../components/homepage/Blog";
 import Hero from "../components/homepage/Hero";
 import Incentive from "../components/homepage/Incentive";
 import JoinCommunity from "../components/homepage/JoinCommunity";
-import SupportOurProgram from "../components/homepage/SupportOurProgram";
-import Partners from "../components/homepage/Partners";
-
-import Footer from "../components/navigation/Footer";
 
 export default function Home() {
   return (
@@ -36,14 +31,9 @@ export default function Home() {
           content="/assets/img/SurPathHub_preview_thumbnail.JPG"
         />
       </Head>
-      <main className="text-center mx-auto">
-        <Hero />
-        <Incentive />
-        <div className="mt-12 border-t border-gray-200/10 pt-8"></div>
-        <JoinCommunity />
-        <SupportOurProgram />
-        <Blog />
-        <Partners />
+
+      <main className="flex flex-col h-screen bg-gray-subpath">
+        Hello SurPath Hub Projects
       </main>
     </>
   );
