@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -13,6 +15,11 @@ module.exports = {
         "footer__btn-green": "#51a32f",
         "home__btn-gray": "#33363a",
         "gray-subpath": "#151719",
+        "gray-subpath-light": "#25282C",
+      },
+
+      fontFamily: {
+        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
       },
     },
   },
