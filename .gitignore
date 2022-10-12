@@ -6,7 +6,6 @@
 .pnp.js
 
 # custom
-old_website/
 .vscode/
 
 # testing
