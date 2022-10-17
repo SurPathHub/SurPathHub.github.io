@@ -193,6 +193,7 @@ img {
 .l-header,
 .home {
   background-color: var(--new-black-bg) ;
+  background-image:url(/SurPathHub.github.io/img/wallpapersden.com_programming-coding-language_1920x1080.jpg);
 }
 
 
@@ -243,6 +244,7 @@ img {
 .nav__link {
   color: var(--light-dark);
   font-weight: 100;
+  background-color: black;
 }
 
 .nav__link:hover {
@@ -405,6 +407,7 @@ img {
   line-height: 1.1;
   margin: 1.2rem 0rem 1rem 0rem;
   z-index: 1;
+  background-color: black;
 }
 
 .home__description {
@@ -417,6 +420,7 @@ img {
   font-size: 20px;
   height: auto;
   margin: auto;
+  background-color: black;
 }
 
 .console {
