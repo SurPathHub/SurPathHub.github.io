@@ -3,7 +3,7 @@ description: Create a bug report to help us address errors in the repository
 title: "[BUG] <bug description>"
 labels: [bug]
 body:
-  - type: input
+  - type: textarea
     id: bugdescription
     attributes:
       label: Description of the bug
@@ -15,7 +15,7 @@ body:
       label: Please add screenshots (if applicable)
     validations:
       required: false
-  - type: input
+  - type: textarea
     id: context
     attributes:
       label: Add any other context about the problem here
@@ -25,7 +25,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/web3community/web3community.github.io/blob/main/CODE_OF_CONDUCT.md)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/SurPathHub/.github/blob/main/CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
