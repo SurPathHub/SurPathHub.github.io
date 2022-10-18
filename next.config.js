@@ -6,7 +6,12 @@ const nextConfig = {
     return {
       "/": { page: "/" },
     };
-  },
+   experimental: {
+        images: {
+            unoptimized: true
+        }
+    }
+} 
   reactStrictMode: true,
 }
 
