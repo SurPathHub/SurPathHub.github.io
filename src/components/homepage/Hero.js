@@ -1,17 +1,15 @@
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
-import Incentive from './Incentive'
-import Link from 'next/link'
 
-const navigation = [
-  { name: 'About', href: '/about' },
-  { name: 'Events', href: '/events' },
-  { name: 'Projects', href: '/projects' },
-  { name: 'Partners', href: '/partners' },
-  { name: 'Team', href: '/team' },
-]
+const YoutubeEmbed = ({ embedId }) => (
+  <iframe
+    className='left-0 top-0 w-full h-full rounded-lg shadow-lg'
+    src={`https://www.youtube.com/embed/${embedId}`}
+    frameBorder='0'
+    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+    allowFullScreen
+    title='Embedded youtube for SurPath Hub'
+  />
+)
 
 const Hero = () => {
   return (
@@ -22,6 +20,7 @@ const Hero = () => {
             <span className='block'>SurPath Hub</span>
             {/* <span className="block text-indigo-600">online business</span> */}
           </h1>
+
           <p className='mx-auto mt-3 max-w-md text-base text-home__text sm:text-lg md:mt-5 md:max-w-3xl md:text-xl'>
             An inclusive community that brings Open Source closer to the
             Filipino student. We are here to explore every opportunity available
@@ -31,19 +30,19 @@ const Hero = () => {
       </div>
       <div className='relative w-full pb-24 pt-12 bg-pink-400/0'>
         <div className='mx-auto max-w-7xl px-4 sm:px-6'>
-          <div className='flex justify-center '>
-            <img
-              className='rounded-lg shadow-lg z-50'
-              src='/img/hero-video.png'
-              alt='App screenshot'
-            />
+          <div className='flex justify-center'>
+            <div className='h-[220px] sm:h-[350px] lg:h-[500px] w-full z-50'>
+              <div className='flex justify-center px-4 sm:px-12 lg:px-36 h-full'>
+                <YoutubeEmbed embedId='ZCmqeOHhjzk' />
+              </div>
+            </div>
           </div>
         </div>
 
         {/* START: shape corner bottom-left */}
-        <div className='absolute left-0 bottom-0  '>
+        <div className='absolute left-0 bottom-0 z-0'>
           <Image
-            className='absolute left-0 bottom-0 h-full w-full'
+            className='absolute left-0 bottom-0 h-full w-full z-0'
             src={'/img/hero-shape-circle.svg'}
             width={562}
             height={555}
