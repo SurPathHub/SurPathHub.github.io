@@ -133,7 +133,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className='text-base font-medium text-home__title'>
-                  Ressources
+                  Resources
                 </h3>
                 <ul role='list' className='mt-4 space-y-4'>
                   {navigation.ressources.map((item) => (
