@@ -46,7 +46,7 @@ const SurPathLayout = ({ children }) => {
                           <img
                             className='h-12 w-auto sm:h-14'
                             src='/img/surpath_logo.png'
-                            alt=''
+                            alt='SurPath Hub Community Logo'
                           />
                         </Link>
                         <div className='-mr-2 flex items-center md:hidden'>
@@ -60,7 +60,10 @@ const SurPathLayout = ({ children }) => {
                     <div className='hidden md:flex md:space-x-10'>
                       {navigation.map((item) => (
                         <Link key={item.name} href={item.href}>
-                          <span className='font-medium text-gray-500 hover:text-gray-100 cursor-pointer'>
+                          <span
+                            key={item.name + '-span'}
+                            className='font-medium text-gray-500 hover:text-gray-100 cursor-pointer'
+                          >
                             {item.name}
                           </span>
                         </Link>
@@ -101,7 +104,10 @@ const SurPathLayout = ({ children }) => {
                       <div className='space-y-1 px-2 pt-2 pb-3'>
                         {navigation.map((item) => (
                           <Link key={item.name} href={item.href}>
-                            <span className='block rounded-md px-3 py-2 text-base font-medium text-home__text hover:bg-gray-50/10 hover:text-white/90'>
+                            <span
+                              key={item.name + '-span-2'}
+                              className='block rounded-md px-3 py-2 text-base font-medium text-home__text hover:bg-gray-50/10 hover:text-white/90'
+                            >
                               {item.name}
                             </span>
                           </Link>
@@ -121,7 +127,7 @@ const SurPathLayout = ({ children }) => {
             {/* END: navigation */}
           </div>
         </div>
-        <div className='flex flex-col w-full '>
+        <div className='flex flex-col w-full'>
           <div className='max-w-7xl mx-auto flex flex-col w-full'>
             {children}
           </div>
