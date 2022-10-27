@@ -7,10 +7,33 @@ This repository is dedicated to our community's website. Contributions are welco
 
 <hr />
 
-### How to Contribute?<br>
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Be sure to check the <a href="https://github.com/surpathcommunity/surpathcommunity.github.io/blob/main/CONTRIBUTING.md">contributing guidelines.</a>
+## :rocket: Getting Started
 
-<br/>
+> Make sure to read our [contributing guidelines](https://github.com/SurPathHub/SurPathHub.github.io/blob/main/CONTRIBUTING.md)
+
+### 1\. Clone this Repository
+
+```
+git clone https://github.com/SurPathHub/SurPathHub.github.io.git
+```
+
+### 2\. Navigate to the directory
+
+```
+cd SurPathHub.github.io
+```
+
+### 3\. Install dependencies
+
+```
+npm install
+```
+
+### 4\. Run Nextjs
+
+```
+npm run dev
+```
 
 ## Follow Us
 <a href="https://twitter.com/SurPathHub"><img alt="followers" title="Follow me on Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
