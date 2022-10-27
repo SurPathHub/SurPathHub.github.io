@@ -1,7 +1,7 @@
 # SurPath Hub Website
 This repository is dedicated to our community's website. Contributions are welcome to make our website more community-friendly.
 
-![image](https://user-images.githubusercontent.com/73097560/117122166-2aea6180-adc8-11eb-863f-a92de0d96af7.png)
+<img src="https://user-images.githubusercontent.com/77573336/198305272-6286ac09-900b-4116-bb5d-96db5a7ed244.gif" width="100%">
 
 <a href="https://surpathhub.github.io/">Live View</a>
 
