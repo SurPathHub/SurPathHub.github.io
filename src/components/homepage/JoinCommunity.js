@@ -3,10 +3,12 @@ import Image from 'next/image'
 const communityPrograms = [
   {
     name: 'Content Ceator',
+    desc: 'Be one of our Community Volunteers who strive to help SurPath Hub organize in events and manage our platforms for the community.',
     imgSrc: '/img/icons/collection.svg',
   },
   {
     name: 'Community Volunteer',
+    desc: 'Join our Community Program as a content creator and be SurPath Hub\'s Digital educator by creating videos and tutorials for our community members.',
     imgSrc: '/img/icons/collection.svg',
   },
 ]
@@ -53,9 +55,7 @@ const JoinCommunity = () => {
                   {program.name}
                 </h3>
                 <p className='text-base text-home__text'>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat.
+                  {program.desc}
                 </p>
               </div>
               <div className='mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8'>
