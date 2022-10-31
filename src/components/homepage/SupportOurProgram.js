@@ -4,14 +4,22 @@ const communityPrograms = [
   {
     name: 'Platinum',
     imgSrc: '/img/icons/stars.svg',
+    info: 'Ask us about pre-defined sponsoring package or create your own',
   },
   {
     name: 'Gold',
     imgSrc: '/img/icons/file.svg',
+    subtxt:'Benefits',
+    info: '✓ Event Promotion',
+    info2: '✓ Product Advertisement',
+    info3: '✓ Logo and Description on website',
   },
   {
     name: 'Silver',
     imgSrc: '/img/icons/globe.svg',
+    subtxt:'Benefits',
+    info: '✓ Logo and Description on website',
+    info2: '✓ 2 tickets for In-person event',
   },
 ]
 
@@ -58,15 +66,24 @@ const SupportOurProgram = () => {
                 <h3 className='text-xl font-medium text-home__title'>
                   {program.name}
                 </h3>
+              <h4 className='text-lg font-medium text-home__title'>
+                {program.subtxt}
+                </h4>
                 <p className='text-base text-home__text'>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat.
+                {program.info}
+                <br></br>
+                {program.info2}
+                <br></br>
+                {program.info3}
                 </p>
               </div>
             </div>
           ))}
         </div>
+        <br></br>
+        <h3 className='text-xl text-home__text'>
+        Learn More &gt;
+        </h3>  
       </div>
     </>
   )
