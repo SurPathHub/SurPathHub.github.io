@@ -1,8 +1,29 @@
 /*===== GOOGLE FONTS =====*/
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*back to top button*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
 
+#myBtn:hover {
+  background-color: #555;
+  font-size: 20px; /* Add a dark-grey background on hover */
+}
 /*===== VARIABLES CSS =====*/
+
 
 :root {
   --header-height: 3rem;
@@ -172,6 +193,7 @@ img {
 .l-header,
 .home {
   background-color: var(--new-black-bg) ;
+  background-image:url(/SurPathHub.github.io/img/wallpapersden.com_programming-coding-language_1920x1080.jpg);
 }
 
 
@@ -222,6 +244,7 @@ img {
 .nav__link {
   color: var(--light-dark);
   font-weight: 100;
+  background-color: black;
 }
 
 .nav__link:hover {
@@ -384,6 +407,7 @@ img {
   line-height: 1.1;
   margin: 1.2rem 0rem 1rem 0rem;
   z-index: 1;
+  background-color: black;
 }
 
 .home__description {
@@ -396,6 +420,7 @@ img {
   font-size: 20px;
   height: auto;
   margin: auto;
+  background-color: black;
 }
 
 .console {
